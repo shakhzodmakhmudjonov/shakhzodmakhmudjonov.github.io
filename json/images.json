@@ -1,0 +1,14 @@
+{
+    "images":
+    [
+        {"url":"img/1.webp", "caption":"Image 1"},
+        {"url":"img/2.webp", "caption":"Image 2"},
+        {"url":"img/3.webp", "caption":"Image 3"},
+        {"url":"img/4.webp", "caption":"Image 4"},
+        {"url":"img/5.webp", "caption":"Image 5"},
+        {"url":"img/6.webp", "caption":"Image 6"},
+        {"url":"img/7.webp", "caption":"Image 7"},
+        {"url":"img/8.webp", "caption":"Image 8"},
+        {"url":"img/9.webp", "caption":"Image 9"}
+    ]
+}

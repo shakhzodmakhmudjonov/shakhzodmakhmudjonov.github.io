@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+    padding-left: 10px;
+    border-left: 4px solid #13932b;
+}
+
+.row {
+    align-items: center;
+}
+
+footer {
+    padding: 45px 0;
+    background: #000;
+    color: #FFF;
+}
+
+.main-header {
+    padding: 45px 0;
+}
+
+.navbar-brand img {
+    width: 100px;
+}
+
+footer a {
+    color: #FFF;
+}
+
+.navbar > .container {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-expand-sm .navbar-collapse {
+    justify-content: end;
+}
+
+div#divButton > button {
+    width: 10px;
+    height: 10px;
+    display: block;
+    border-radius: 50%;
+    margin: 0 10px;
+    border: 0;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+div#divButton > button.active {
+    background: #181733;
+    opacity: 1;
+}
+
+div#divButton > button:hover {
+    opacity: 1;
+}
+
+button.carousel-control-next, button.carousel-control-prev {
+    background: transparent;
+    border: 0;
+}
+
+footer {
+    text-align: center;
+}
+
+.img-responsive {
+    max-width: 100%;
+}
+
+main img {
+    transition: 400ms;
+}
+
+main img:hover {
+    transform: translateY(-15px);
+}
+
+.modal img:hover {
+    transform: none;
+}
+
+div#gallery img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
